@@ -34,7 +34,8 @@ end
 
 def turn
   turn = 0
-  @board.each do
+  @board.each do |index|
+    if turn
   if turn 
 end
 end
