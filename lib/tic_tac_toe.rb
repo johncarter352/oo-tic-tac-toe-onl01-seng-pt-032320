@@ -19,6 +19,11 @@ end
 def input_to_index(input)
   input.to_i - 1 
 end
-  
+
+def move(index, default = "X")
+  @board[index] = default
+end
+
+def position_taken?
   
 end
