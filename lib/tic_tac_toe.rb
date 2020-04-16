@@ -35,7 +35,10 @@ end
 def turn
   turn = 0
   @board.each do |index|
-    if turn
-  if turn 
+    if index == "X" || index == "O"
+      turn += 1 
+    end
+    turn
+  end
 end
 end
