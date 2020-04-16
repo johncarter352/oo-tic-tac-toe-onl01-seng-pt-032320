@@ -24,6 +24,10 @@ def move(index, default = "X")
   @board[index] = default
 end
 
-def position_taken?
+def position_taken?(index)
+  !(@board[index].nil? || @board[index] == " ")
+end
+
+def valid_move?
   
 end
