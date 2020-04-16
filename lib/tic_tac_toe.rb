@@ -33,7 +33,7 @@ def valid_move?(index)
 end
 
 def turn
-   puts "Please choose a number 1-9:"
+   puts "Play a number 1-9:"
   user_input = gets.chomp
   index = input_to_index(user_input)
   if valid_move?(index)
@@ -55,4 +55,7 @@ def turn_count
     turn
   end
 end
+
+def current_player
+  
 end
