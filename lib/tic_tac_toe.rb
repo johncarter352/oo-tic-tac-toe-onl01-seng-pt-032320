@@ -33,7 +33,8 @@ def valid_move?
 end
 
 def turn
-  turn = 0 
+  turn = 0
+  @board.each do
   if turn 
 end
 end
