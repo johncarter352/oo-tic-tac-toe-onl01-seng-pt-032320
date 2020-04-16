@@ -52,8 +52,8 @@ def turn_count
     if index == "X" || index == "O"
       turn += 1 
     end
-    turn
   end
+  turn
 end
 
 def current_player
