@@ -33,5 +33,7 @@ def valid_move?
 end
 
 def turn
+  turn = 0 
+  if turn 
 end
 end
